@@ -12,6 +12,9 @@ public class GitPrueba {
     /**
      * @param args the command line arguments
      */
+    
+    protected int x;
+    
     public static void main(String[] args) {
         // TODO code application logic here
     }
