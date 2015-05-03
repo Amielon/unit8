@@ -16,6 +16,12 @@ public class GitPrueba {
      */
     
     protected int x;
+    protected String b;
+
+    public boolean verdad()
+    {
+        return true;
+    }
     
     public static void main(String[] args) {
         // TODO code application logic here
