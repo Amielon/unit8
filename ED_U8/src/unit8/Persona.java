@@ -23,9 +23,9 @@ public class Persona {
         return true;
     }
     
-    public String ToString()
+    public void ToString()
     {
-        return b;
+        System.out.print(b + x);
     }
     
     public static void main(String[] args) {
