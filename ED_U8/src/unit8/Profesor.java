@@ -11,6 +11,8 @@ package unit8;
  */
 public class Profesor extends Persona{
     
+    public int Salario;
+    
     public Profesor(String nombre, String dni)
     {
         super(nombre,dni);
@@ -20,4 +22,13 @@ public class Profesor extends Persona{
     {
         return true;
     }
+
+    public int getSalario() {
+        return Salario;
+    }
+
+    public void setSalario(int Salario) {
+        this.Salario = Salario;
+    }
+    
 }
